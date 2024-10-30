@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hkdcfgyd/nat20/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R dnd5e $DEPLOYPATH
+    - /bin/cp *.* $DEPLOYPATH
+    
